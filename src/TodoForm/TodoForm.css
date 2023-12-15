@@ -1,0 +1,55 @@
+form{
+    width: 85%;
+    height: auto;
+    min-width: 320px;
+    max-width: 700px;
+    padding: 20px 12px;
+    border-radius: 12px;
+    background: black;
+    font-family: 'Poppins';
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin: 16px 24px 16px 24px;
+    padding: 12px 12px;
+    border-radius: 8px;
+    min-width: 260px;
+    width: calc(100% - 120px);
+}
+
+.TodoForm-buttonContainer{
+    display: flex;
+    min-width: 300px;
+    max-width: 500px;
+    justify-content: space-around;
+    
+}
+
+.TodoForm-button{
+    width: 120px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform .3s;
+}
+.TodoForm-button:hover{
+    transform: scale(1.1);
+}
+.TodoForm-button--cancel{
+    background-color: red;
+}
+.TodoForm-button--add{
+    background-color: green;
+}
